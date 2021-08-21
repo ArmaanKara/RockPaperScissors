@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    color: aliceblue;
+    color: white;
     background-color: black;
     font-family: 'Orbitron', sans-serif;
 }
@@ -21,9 +21,11 @@ header > h3 {
     margin-top: 2.7%;
 }
 
+
+
 .score-board {
     margin: 3% auto;
-    border: 3px solid aliceblue;
+    border: 3px solid white;
     width: 25%;
     border-radius: 5px;
     padding: 15px 20px;
@@ -72,5 +74,24 @@ header > h3 {
 
 #action-message {
     text-align: center;
+}
 
+.try-again {
+    padding: 0.5% 0.5%;
+    margin-top: 2%;
+}
+
+.blue-glow {
+    border: 4px solid lightskyblue;
+    box-shadow: 0 0 10px rgb(44, 130, 184);
+}
+
+.red-glow {
+    border: 4px solid lightcoral;
+    box-shadow: 0 0 10px rgb(207, 64, 64);
+}
+
+.grey-glow{
+    border: 4px solid lightslategray;
+    box-shadow: 0 0 10px rgb(100, 107, 114);
 }
